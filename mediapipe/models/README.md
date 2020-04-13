@@ -12,7 +12,8 @@ Here are descriptions of the models used in the [example applications](../docs/e
   * [Model card](https://sites.google.com/corp/view/perception-cv4arvr/blazeface#h.p_21ojPZDx3cqq)
 
 ### Face Mesh
-  * [TF.js model](https://tfhub.dev/mediapipe/facemesh/1)
+  * Face detection: [TFLite model](https://github.com/google/mediapipe/tree/master/mediapipe/models/face_detection_front.tflite)
+  * 3D face landmark: [TFLite model](https://github.com/google/mediapipe/tree/master/mediapipe/models/face_landmark.tflite), [TF.js model](https://tfhub.dev/mediapipe/facemesh/1)
   * Paper: ["Real-time Facial Surface Geometry from Monocular Video on Mobile GPUs"](https://arxiv.org/abs/1907.06724)
   * [TensorFlow Blog post](https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html)
   * [Model card](https://drive.google.com/file/d/1VFC_wIpw4O7xBOiTgUldl79d9LA-LsnA/view)
